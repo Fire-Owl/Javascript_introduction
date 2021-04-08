@@ -8,11 +8,23 @@
 </head>
 <body>
 
-<span>Pommes (au kg) : </span>
+<span>Pommes (1 euro le kg) : </span>
 
-    <button id="minus">-</button>
-    <button id="plus">+</button>
-    <span id="counter">0</span>
+    <button id="minusp">-</button>
+    <button id="plusp">+</button>
+    <span id="counterp">0</span>
+<br>
+<span>Bananes (1.1 euro le kg) : </span>
+
+    <button id="minusb">-</button>
+    <button id="plusb">+</button>
+    <span id="counterb">0</span>
+<br>
+<span>Cerises (1.01 euro le kg) : </span>
+
+    <button id="minusc">-</button>
+    <button id="plusc">+</button>
+    <span id="counterc">0</span>
 
     <div>Total : <span id="total"></span></div>
     
@@ -20,3 +32,15 @@
 
 </body>
 </html>
+
+
+Cloner le repository de Nicolas : https://github.com/Fire-Owl/Javascript_introduction
+
+Ajouter dans la liste des articles :
+- Bananes (au kg)
+- Cerises (au kg)
+- Pommes (au kg) (déjà présent dans le script)
+
+Chaque article a un compteur qui peut être incrémenté ou décrémenté
+
+L'ajout ou le retrait d'un exemplaire d'un article recalcule le prix Total de la commande
